@@ -1,8 +1,10 @@
 import java.util.*;
 public  class Player{
     Scanner sc;
-    Player(){
+    char playerPiece;
+    Player(char playerPiece){
         sc = new Scanner();
+        this.playerPiece = playerPiece;
     }
     public  int takePositionAsInputFromConsole(){
         System.out.println("Take Position From Board Where You Want To Place The Item");

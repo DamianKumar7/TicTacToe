@@ -14,6 +14,12 @@ public class TicTacToeMain {
     }
     public void playGame(){
         currentBoard.resetBoard();
+        boolean gameOverSignal = false;
+        int currentPlayerId = 1;
+        while(!gameOverSignal){
+            player1 = new Player("X");
+            player2 = new Player("O");
+        }
     }
 
 }
